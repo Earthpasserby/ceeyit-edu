@@ -191,18 +191,45 @@ label {
   /* width: 294px; */
   height: 258px;
   top: 714px;
-  left: 101px;
+  /* left: 101px; */
   padding: 79px 29px 59px 29px;
   border-radius: 40px;
   background: linear-gradient(#fb729f, #f55989);
 }
-.Analysis{
- height: 258px;
+.Analysis {
+  height: 258px;
   top: 714px;
-  left: 101px;
+  /* left: 101px; */
   padding: 79px 29px 59px 29px;
   border-radius: 40px;
-  background: linear-gradient(#A08CFD, #917AFC);
+  background: linear-gradient(#a08cfd, #917afc);
+}
+.Eng {
+  height: 258px;
+  top: 714px;
+  /* left: 101px; */
+  padding: 79px 29px 59px 29px;
+  border-radius: 40px;
+  background: linear-gradient(#65d5f3, #4bc9e9);
+}
+.Site {
+  height: 258px;
+  top: 714px;
+  /* left: 101px; */
+  padding: 79px 29px 59px 29px;
+  border-radius: 40px;
+  background: linear-gradient(#f7b15e, #ffa235);
+}
+.python__Col,
+.Analysis,
+.Eng,
+.Site {
+  margin-bottom: 20px; /* Add space between rows on smaller screens */
+}
+.bottom-line {
+  height: 2px;
+  background-color: #000; /* Change this color as needed */
+  margin-top: 10px; /* Add some space between the title and the line */
 }
 /* Media queries for smaller screens */
 @media (max-width: 576px) {
