@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
 }
+/* login & Signup page  */
 
 .sign-Up {
   display: flex;
@@ -77,8 +78,8 @@ label {
   color: #000000;
   text-decoration: none;
 }
-#gridCheck{
-     background-color: #06807a;
+#gridCheck {
+  background-color: #06807a;
 }
 .signUp h4 {
   font-family: Nunito;
@@ -104,14 +105,105 @@ label {
 
 .form-check-input {
   margin: 0; /* Remove default margins */
-  transform: scale(1.2); /* Optional: Enlarge the checkbox for better visibility */
+  transform: scale(
+    1.2
+  ); /* Optional: Enlarge the checkbox for better visibility */
 }
 
 .form-check-label {
   margin-bottom: 0; /* Ensure label doesn't create extra space */
   font-size: 1rem; /* Adjust the font size if necessary */
 }
-
+/* Home page  */
+.home-Header {
+  margin-top: 70px;
+}
+.home-Header h1 {
+  font-family: Atyp Text;
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 85px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  max-width: 580px;
+}
+.home-Header p {
+  font-family: Atyp Text;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.36px;
+  text-align: left;
+  color: #2c2b31;
+  max-width: 548px;
+}
+.nav-Btn {
+  height: 43px;
+  top: 48px;
+  text-align: center;
+  padding: 0px 38px 0px 37px;
+  border-radius: 20px;
+  background: linear-gradient(#00e8db, #095450);
+  box-shadow: #0000001f;
+}
+.nav-Btn a {
+  font-family: Atyp Text;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.get-Btn {
+  border-radius: 20px;
+  background: linear-gradient(#00e8db, #095450);
+  max-width: 152px;
+  padding: 7px 38px 0px 37px;
+  height: 43px;
+}
+.get-Btn a {
+  top: 16px;
+  left: 34px;
+  font-family: Atyp Text;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.36px;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.home__Aid {
+  padding: 7px;
+}
+.home__Aid a {
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13.64px;
+  text-align: left;
+  color: #00000080;
+}
+.home__Course {
+  margin-top: 100px;
+}
+.home-Row {
+  margin-top: 80px;
+}
+.python__Col {
+  /* width: 294px; */
+  height: 258px;
+  top: 714px;
+  left: 101px;
+  padding: 79px 29px 59px 29px;
+  border-radius: 40px;
+  background: linear-gradient(#fb729f, #f55989);
+}
+.Analysis{
+ height: 258px;
+  top: 714px;
+  left: 101px;
+  padding: 79px 29px 59px 29px;
+  border-radius: 40px;
+  background: linear-gradient(#A08CFD, #917AFC);
+}
 /* Media queries for smaller screens */
 @media (max-width: 576px) {
   .signUp__Btn {
