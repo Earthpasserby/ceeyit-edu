@@ -19,26 +19,97 @@
   border: none; /* No border */
   color: white; /* Text color */
   background: linear-gradient(#03baaf, #06807a); /* Background color */
-  font-size: 1.2rem; /* Responsive font size */
   cursor: pointer; /* Pointer on hover */
   display: block; /* Ensures full-width block display */
   margin: 0 auto; /* Center the button on larger screens */
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+}
+.login__Btn {
+  width: 100%; /* Full width */
+  height: auto; /* Automatic height based on padding */
+  padding: 15px 20px; /* Use relative padding */
+  border-radius: 50px; /* Keep your border radius */
+  color: #000000; /* Text color */
+  background: transparent; /* Background color */
+  cursor: pointer; /* Pointer on hover */
+  display: block; /* Ensures full-width block display */
+  margin: 0 auto; /* Center the button on larger screens */
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.55px;
+  border: 1px solid #0000001a;
 }
 label {
   font-family: Nunito;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 13.64px;
   text-align: left;
   color: #000000;
 }
+.sign__AccountAid,
+.sign__AccountAid span a {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13.64px;
+  text-align: left;
+  color: #00000080;
+}
+.signUp-login {
+  font-family: Nunito;
+  font-size: 12.92px;
+  font-weight: 600;
+  line-height: 17.63px;
+  text-align: left;
+  color: #15bab1 !important;
+  text-decoration: none;
+}
+.f__Pwd {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.55px;
+  color: #000000;
+  text-decoration: none;
+}
+#gridCheck{
+     background-color: #06807a;
+}
+.signUp h4 {
+  font-family: Nunito;
+  font-size: 38.69px;
+  font-weight: 600;
+  line-height: 52.77px;
+  text-align: left;
+  color: #000000;
+}
 ::placeholder {
   font-family: Nunito;
-  font-size: 6.87px;
+  font-size: 9.87px;
   font-weight: 500;
   line-height: 9.37px;
   text-align: left;
   color: #000000;
+}
+.form-check {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center the checkbox and label */
+  gap: 10px; /* Add some space between the checkbox and the label */
+}
+
+.form-check-input {
+  margin: 0; /* Remove default margins */
+  transform: scale(1.2); /* Optional: Enlarge the checkbox for better visibility */
+}
+
+.form-check-label {
+  margin-bottom: 0; /* Ensure label doesn't create extra space */
+  font-size: 1rem; /* Adjust the font size if necessary */
 }
 
 /* Media queries for smaller screens */
