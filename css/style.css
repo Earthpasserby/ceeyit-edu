@@ -188,9 +188,8 @@ label {
   margin-top: 80px;
 }
 .python__Col {
-  /* width: 294px; */
   height: 258px;
-  top: 714px;
+  /* top: 714px; */
   /* left: 101px; */
   padding: 79px 29px 59px 29px;
   border-radius: 40px;
@@ -198,7 +197,7 @@ label {
 }
 .Analysis {
   height: 258px;
-  top: 714px;
+  /* top: 714px; */
   /* left: 101px; */
   padding: 79px 29px 59px 29px;
   border-radius: 40px;
@@ -206,7 +205,7 @@ label {
 }
 .Eng {
   height: 258px;
-  top: 714px;
+  /* top: 714px; */
   /* left: 101px; */
   padding: 79px 29px 59px 29px;
   border-radius: 40px;
@@ -214,7 +213,7 @@ label {
 }
 .Site {
   height: 258px;
-  top: 714px;
+  /* top: 714px; */
   /* left: 101px; */
   padding: 79px 29px 59px 29px;
   border-radius: 40px;
@@ -225,17 +224,184 @@ label {
 .Eng,
 .Site {
   margin-bottom: 20px; /* Add space between rows on smaller screens */
+  max-width: 294px !important;
+  position: relative;
+  margin-right: 1rem;
+}
+.python__Col h5,
+.Analysis h5,
+.Eng h5,
+.Site h5 {
+  font-family: Atyp Text;
+  font-size: 23px;
+  font-weight: 400;
+  /* line-height: 20px; */
+  text-align: left;
+  color: white;
 }
 .bottom-line {
-  height: 2px;
-  background-color: #000; /* Change this color as needed */
-  margin-top: 10px; /* Add some space between the title and the line */
+  height: 3px;
+  background-color: #ffffff; /* Change this color as needed */
+  margin-top: 100px; /* Add some space between the title and the line */
+  border-radius: 10px;
 }
+.pitch-img {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.blog-Text {
+  padding: 18px;
+  background: linear-gradient(#201e27, #4b4b4b);
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* Ensures it takes full height in flexbox */
+}
+
+.img-fluid {
+  object-fit: cover; /* Ensures the image covers the full area while maintaining aspect ratio */
+}
+
+.row.align-items-stretch {
+  height: 100%;
+}
+
+.blog-Text p {
+  font-family: Atyp Text;
+  font-size: 12.57px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+
+.blog-Text h4 {
+  font-family: Atyp Text;
+  font-size: 27.07px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+.offer__Cont {
+  border-radius: 59.94px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding: 20px; /* Optional padding */
+  /* margin-right: 0.5rem; */
+}
+
+.offer__Cont img {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Optional space below the image */
+  border-top-left-radius: 53.28px;
+  border-top-right-radius: 53.28px;
+}
+
+/* MEDIA QUERIES for RESPONSIVENESS */
+@media (max-width: 767.98px) {
+  /* For small screens like phones */
+  .pitch-img {
+    max-width: 100%; /* Make image take full width on small screens */
+    height: auto;
+  }
+
+  .blog-flex {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .blog-Text h4 {
+    font-size: 20px; /* Adjust heading font size */
+  }
+
+  .blog-Text p {
+    font-size: 11px; /* Adjust paragraph font size */
+    line-height: 16px;
+  }
+
+  .blog-Text {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+  .Pitch {
+    margin-bottom: 50px;
+  }
+  .pitch-img {
+    border-radius: 20px;
+  }
+  .blog-Text {
+    border-radius: 20px;
+  }
+  .python__Col,
+  .Analysis,
+  .Eng,
+  .Site {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* Extra small screens like small phones */
+  .pitch-img {
+    max-width: 100%; /* Full width image */
+    height: auto;
+  }
+
+  .blog-Text h4 {
+    font-size: 18px; /* Smaller font for h4 on very small screens */
+  }
+
+  .blog-Text p {
+    font-size: 10px;
+    line-height: 15px; /* Smaller paragraph text */
+  }
+
+  .blog-Text {
+    padding: 8px; /* Further reduced padding */
+  }
+  .python__Col,
+  .Analysis,
+  .Eng,
+  .Site {
+    margin-right: 0;
+  }
+}
+
+/* Additional media query for smaller devices */
+@media (max-width: 575.98px) {
+  .blog-Text {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .blog-Text h4 {
+    font-size: 22px; /* Slightly smaller font size for h4 */
+  }
+  .blog-Text p {
+    font-size: 10px; /* Slightly smaller font size for paragraph */
+  }
+  .python__Col,
+  .Analysis,
+  .Eng,
+  .Site {
+    margin-right: 0;
+  }
+}
+
 /* Media queries for smaller screens */
 @media (max-width: 576px) {
   .signUp__Btn {
     font-size: 1rem; /* Adjust font size for smaller screens */
     padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+  .python__Col,
+  .Analysis,
+  .Eng,
+  .Site {
+    margin-right: 0;
   }
 }
 
