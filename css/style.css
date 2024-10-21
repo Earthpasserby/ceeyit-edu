@@ -302,7 +302,22 @@ label {
   border-top-left-radius: 53.28px;
   border-top-right-radius: 53.28px;
 }
-
+.offer__Cont h6 {
+  font-family: Atyp Text;
+  font-size: 23.97px;
+  font-weight: 400;
+  line-height: 34.5px;
+  text-align: center;
+  color: #302f35;
+}
+.offer__Cont p {
+  font-family: Atyp Text;
+  font-size: 15.98px;
+  font-weight: 400;
+  line-height: 26.64px;
+  text-align: center;
+  color: #302f35;
+}
 /* MEDIA QUERIES for RESPONSIVENESS */
 @media (max-width: 767.98px) {
   /* For small screens like phones */
