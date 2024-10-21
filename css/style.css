@@ -288,13 +288,29 @@ label {
   border-radius: 59.94px;
   background-color: #f4f4f4;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
-  padding: 20px; /* Optional padding */
-  /* margin-right: 0.5rem; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 1rem;
+  margin-bottom: 20px;
+  /* Remove fixed width */
+  width: 391.58px !important ; /* Make it flexible and responsive */
 }
-
+.profile-img {
+  width: 88px;
+  height: 80.38px;
+  position: absolute;
+  bottom: 20px; /* Move the image downwards */
+  left: 20px; /* Move the image towards the left */
+}
+.offers-Img {
+  position: relative;
+  width: 100%; /* Ensure the image scales responsively */
+}
+.profileName{
+     padding-left: 120px;
+}
 .offer__Cont img {
   max-width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
@@ -358,8 +374,16 @@ label {
   .Site {
     margin-right: 0;
   }
+  .offer__Cont {
+    margin-right: 0px;
+    width: 291.58px !important;
+  }
 }
-
+@media (min-width: 768px) {
+  .offer__Cont {
+    width: auto; /* On larger screens, adjust to fit content */
+  }
+}
 @media (max-width: 575.98px) {
   /* Extra small screens like small phones */
   .pitch-img {
