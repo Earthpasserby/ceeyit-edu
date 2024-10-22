@@ -440,14 +440,14 @@ footer {
   gap: 20px; /* Add space between the two dropdowns */
   align-items: center; /* Aligns both dropdowns vertically */
   width: 100%; /* Ensure the container takes up full width */
-  max-width: 600px; /* Optional: Set a max width for the container */
+  max-width: 750px; /* Optional: Set a max width for the container */
   margin: 0 auto; /* Center the dropdown container */
 }
 
 /* Style for individual dropdowns */
 .dropdown-btn {
-  background-color: #3498db;
-  color: white;
+  background-color: #ddfffd;
+  color: #059b93;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -471,25 +471,32 @@ footer {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 200px;
-  border-radius: 50px;
+  border-radius: 15px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: #06867f;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
-  border-radius: 50px;
+  border-radius: 5px;
+  font-family: Atyp Text;
+  font-size: 12.13px;
+  font-weight: 400;
+  line-height: 17.27px;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #06867f;
+  color: #ffffff;
 }
 
 .dropdown-btn:hover {
-  background-color: #2980b9;
+  background-color: #06867f;
+  color: #ffffff;
 }
 
 .dropdown.show .dropdown-content {
