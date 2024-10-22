@@ -506,7 +506,37 @@ footer {
 .dropdown.show .icon {
   transform: rotate(180deg);
 }
-
+.courseBtn a {
+  height: 29.14px;
+  border-radius: 13.55px;
+  background: linear-gradient(#00e8db, #095450);
+  width: 103px;
+  padding: 6px 20px; /* Use relative padding */
+}
+.courseBtn a {
+  height: 29.14px;
+  border-radius: 13.55px;
+  background: linear-gradient(#00e8db, #095450);
+  font-family: Atyp Text;
+  font-size: 12.16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+.courseText span {
+  font-family: Atyp Text;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17.28px;
+  text-align: left;
+  color: #302f35;
+}
+.bi-star-fill {
+  width: 14.6px;
+  height: 14.6px;
+  color: #fcc318;
+}
 /* MEDIA QUERIES for RESPONSIVENESS */
 @media (max-width: 767.98px) {
   /* For small screens like phones */
