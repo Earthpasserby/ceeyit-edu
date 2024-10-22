@@ -157,15 +157,103 @@
         </div>
         <div class="row mt-5">
           <div class="col-md-6 col-12">
-
+            <ul class="nav nav-underline" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="home-tab-pane"
+                  aria-selected="true"
+                >
+                  About
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  Courses Content
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  Comments
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home-tab-pane"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+              >
+                Our Python course will you from zero to hero, whether you're a
+                beginner or looking to sharpen your skills. You'll learn by
+                building real-world projects, giving you job-ready expertise in
+                fields like data science, AI, and web development. With
+                mentorship, a supportive community, and an industry-recognized
+                certification, this course is your fast track to a high-demand
+                career. Jump in today and start building your future!
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile-tab-pane"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+                tabindex="0"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact-tab-pane"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                <div>
+                  <h6>What’s on your mind?</h6>
+                  <textarea class="w-100 h-100"></textarea>
+                  <div class="d-flex justify-content-end freeBtn">
+                    <a href="#"> Free</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="disabled-tab-pane"
+                role="tabpanel"
+                aria-labelledby="disabled-tab"
+                tabindex="0"
+              >
+                ...
+              </div>
+            </div>
           </div>
-           <div class="col-md-3 col-12">
-
-          </div>
-           <div class="col-md-3 col-12">
-
-          </div>
-
+          <div class="col-md-3 col-12"></div>
+          <div class="col-md-3 col-12"></div>
         </div>
       </div>
     </section>
