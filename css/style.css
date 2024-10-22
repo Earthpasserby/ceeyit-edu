@@ -633,10 +633,8 @@ footer {
   color: #2c2a31;
 }
 /*Courseview  Page*/
-.course__view__cont {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 20px;
+.courseView video{
+     border-radius: 20px;
 }
 .premium {
   width: 100%;
@@ -683,11 +681,64 @@ footer {
   margin-top: 15px;
   padding: 40px;
 }
+.Rate-cont h6 {
+  font-family: Atyp Text;
+  font-size: 19.83px;
+  font-weight: 400;
+  line-height: 28.24px;
+  text-align: left;
+}
+.Rate-cont p {
+  font-family: Atyp Text;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11.28px;
+  text-align: left;
+}
 .Rate-cont i {
   width: 40px;
   height: 40px;
   font-size: 20px;
 }
+.premium .btn {
+  height: 43px;
+  border-radius: 14.93px;
+  background: linear-gradient(#00e8db, #095450);
+  border: none;
+  color: #ffffff;
+}
+.arrow-left {
+  background-color: white;
+  color: #059D94; /* Arrow color */
+  width: 25px;
+  height: 25px;
+  border-top-left-radius: 14.74px;
+  border-bottom-left-radius: 14.74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  cursor: pointer;
+}
+
+.arrow-right {
+  background-color: #059D94;
+  color: white; /* Arrow color */
+  width: 25px;
+  height: 25px;
+   border-top-right-radius: 14.74px;
+  border-bottom-right-radius: 14.74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  cursor: pointer;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+  transform: scale(1.1); /* Optional hover effect */
+}
+
 /* MEDIA QUERIES for RESPONSIVENESS */
 @media (max-width: 767.98px) {
   /* For small screens like phones */
@@ -740,6 +791,7 @@ footer {
     font-size: 15px;
     padding-top: 10px;
   }
+ 
 }
 @media (min-width: 768px) {
   .offer__Cont {
