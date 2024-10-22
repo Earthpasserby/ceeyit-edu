@@ -511,7 +511,8 @@ footer {
   border-radius: 20px;
   border: 1px solid #eefcfc;
   /* height: 321px; */
-  max-width: 294px;
+  /* max-width: 294px; */
+  max-width: 100%;
   gap: 20px;
 }
 .courseBtn a {
@@ -533,7 +534,7 @@ footer {
   text-align: center;
   text-decoration: none;
 }
-.courseText span {
+.coursetxt span {
   font-family: Atyp Text;
   font-size: 10px;
   font-weight: 400;
@@ -559,6 +560,9 @@ footer {
   text-align: left;
   color: #302f35;
 }
+.courseText {
+  padding: 10px;
+}
 .courseText h6 {
   font-family: Atyp Text;
   font-size: 21.77px;
@@ -571,9 +575,35 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 20px;
+  width: 100%;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto; /* Center the grid horizontally */
+}
+
+.student-Btn {
+  height: 45px;
+  max-width: 100%;
+  text-align: center;
+  padding: 6px 30px 0px 27px;
+  border-radius: 20px;
+  background-color: #ddfffd;
+  border: 0.94px solid #0000000d;
+}
+.student-Btn a {
+  font-family: Atyp Text;
+  font-size: 9.36px;
+  font-weight: 400;
+  color: #2c2a31;
+  text-align: center;
+
+  /* margin-bottom: 10px; */
+}
+.student-Btn p {
+  font-family: Atyp Text;
+  font-size: 4.35px;
+  font-weight: 400;
+  color: #2c2a31;
 }
 /* MEDIA QUERIES for RESPONSIVENESS */
 @media (max-width: 767.98px) {
