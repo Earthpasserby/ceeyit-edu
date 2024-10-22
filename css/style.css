@@ -633,8 +633,8 @@ footer {
   color: #2c2a31;
 }
 /*Courseview  Page*/
-.courseView video{
-     border-radius: 20px;
+.courseView video {
+  border-radius: 20px;
 }
 .premium {
   width: 100%;
@@ -709,7 +709,7 @@ footer {
 }
 .arrow-left {
   background-color: white;
-  color: #059D94; /* Arrow color */
+  color: #059d94; /* Arrow color */
   width: 25px;
   height: 25px;
   border-top-left-radius: 14.74px;
@@ -722,11 +722,11 @@ footer {
 }
 
 .arrow-right {
-  background-color: #059D94;
+  background-color: #059d94;
   color: white; /* Arrow color */
   width: 25px;
   height: 25px;
-   border-top-right-radius: 14.74px;
+  border-top-right-radius: 14.74px;
   border-bottom-right-radius: 14.74px;
   display: flex;
   justify-content: center;
@@ -735,8 +735,34 @@ footer {
   cursor: pointer;
 }
 
-.arrow-left:hover, .arrow-right:hover {
+.arrow-left:hover,
+.arrow-right:hover {
   transform: scale(1.1); /* Optional hover effect */
+}
+.Comment-Text h6 {
+  font-family: Nunito;
+  font-size: 11.03px;
+  font-weight: 700;
+  text-align: left;
+  color: #2c2b31;
+}
+.Comment-Text span {
+  font-family: Nunito;
+  font-size: 5.52px;
+  font-weight: 400;
+  text-align: left;
+  color: #2c2b31;
+  background-color: #DDFFFD;
+  border-radius: 6.58px;
+  padding: 4px;
+}
+
+.Comment-Text p {
+  font-family: Nunito;
+  font-size: 8px;
+  font-weight: 400;
+  text-align: left;
+  color: #2c2a31;
 }
 
 /* MEDIA QUERIES for RESPONSIVENESS */
@@ -791,7 +817,6 @@ footer {
     font-size: 15px;
     padding-top: 10px;
   }
- 
 }
 @media (min-width: 768px) {
   .offer__Cont {
