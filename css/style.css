@@ -767,6 +767,14 @@ footer {
 .AboutTutor {
   padding-top: 45px;
 }
+.AboutTutor h6, .commentTxt h6 {
+  font-family: Atyp Text;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.9px;
+  text-align: left;
+  color: #2c2b31;
+}
 .Comment textarea {
   width: 100%;
   /* height: 119px; */
@@ -799,29 +807,74 @@ footer {
 }
 .indicators {
   display: flex;
-  justify-content: space-between; /* Distribute space evenly */
+  justify-content: space-between; 
   width: 80%; /* You can adjust the width as per the layout */
   padding-top: 20px;
 }
 
 .indicator {
-  width: 52.81px; /* Adjust size as needed */
+  width: 52.81px; 
   height: 5.22px;
-  border-radius: 8.71px; /* Makes it circular */
-  background-color: #e9eced; /* Default background for unfilled indicators */
-  border: 0.1px solid #e9eced; /* Optional border for unfilled indicators */
+  border-radius: 8.71px; 
+  background-color: #e9eced; 
+  border: 0.1px solid #e9eced; 
 }
 
 .indicator.filled {
   background-color: #00e8db; /* Background for filled indicator */
 }
 
-.content span{
+.content span {
   font-family: Atyp Text;
   font-size: 15.43px;
   font-weight: 400;
   text-align: left;
 }
+/* Customizing the entire nav-underline */
+.custom-nav .nav-link {
+  padding: 10px 20px;
+  color: #2c2b31;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  transition: color 0.3s ease-in-out;
+  font-family: Atyp Text;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.custom-nav .nav-link:hover {
+  color: #059d94; /* Text color change on hover */
+}
+
+/* Active tab custom styles */
+.custom-nav .nav-link.active {
+  color: #059d94;
+  font-weight: bold;
+}
+
+/* Custom underline effect for active tab */
+.custom-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #059d94;
+}
+
+/* Adding a hover underline effect */
+.custom-nav .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Space between text and underline */
+  width: 100%;
+  height: 2px;
+  background-color: #059d94;
+}
+
 /* MEDIA QUERIES for RESPONSIVENESS */
 @media (max-width: 767.98px) {
   /* For small screens like phones */
