@@ -790,15 +790,38 @@ footer {
   font-weight: 400;
   line-height: 12px;
   text-align: left;
-  background: linear-gradient(#00E8DB, #095450);
+  background: linear-gradient(#00e8db, #095450);
   border: 1px solid #0000000d;
   text-decoration: none;
   padding: 6px 20px; /* Use relative padding */
   border-radius: 50px;
   border: none;
 }
+.indicators {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly */
+  width: 80%; /* You can adjust the width as per the layout */
+  padding-top: 20px;
+}
 
+.indicator {
+  width: 52.81px; /* Adjust size as needed */
+  height: 5.22px;
+  border-radius: 8.71px; /* Makes it circular */
+  background-color: #e9eced; /* Default background for unfilled indicators */
+  border: 0.1px solid #e9eced; /* Optional border for unfilled indicators */
+}
 
+.indicator.filled {
+  background-color: #00e8db; /* Background for filled indicator */
+}
+
+.content span{
+  font-family: Atyp Text;
+  font-size: 15.43px;
+  font-weight: 400;
+  text-align: left;
+}
 /* MEDIA QUERIES for RESPONSIVENESS */
 @media (max-width: 767.98px) {
   /* For small screens like phones */
